@@ -29,7 +29,7 @@ body{
 
 
 .header__wrapper{
-    background-image: url("../img/Hero.png");
+    background-image: url("./assets/img/Hero.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
@@ -311,7 +311,7 @@ body{
 
 
 .footer{
-    background-image: url("../img/Footer.png");
+    background-image: url("./assets/img/Footer.png");
     max-width: 1440px;
     height: 359px;
     margin: 0 auto;
@@ -351,14 +351,14 @@ body{
     width: 40px;
 }
 .fb{
-    background-image: url("../img/fb.svg");
+    background-image: url("./assets/img/fb.svg");
 }
 .inst{
-    background-image: url("../img/inst.svg");
+    background-image: url("./assets/img/inst.svg");
 }
 .p{
-    background-image: url("../img/p.svg");
+    background-image: url("./assets/img/p.svg");
 }
 .tg{color: red;
-    background-image: url("../img/tg.svg");
+    background-image: url("./assets/img/tg.svg");
 }
