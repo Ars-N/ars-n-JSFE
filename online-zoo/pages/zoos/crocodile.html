@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZOO</title>
+    <link rel="stylesheet" href="../../css/null.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/map.css">
+    <link rel="stylesheet" href="../../css/zoos.css">
+</head>
+<body>
+<header class="header">
+    <div class="container-max">
+        <header class="header-inner flex">
+            <h1>
+                <a class="logo" href="./index.html">
+                    <span class="logo-items zoo">zoo</span>
+                    <span class="logo-items online">online</span>
+                </a>
+            </h1>
+
+            <nav class="menu">
+                <ul class="menu-list flex">
+                    <li class="menu-list--item"><a class="menu-link" href="../../index.html">About</a></li>
+                    <li class="menu-list--item"><a class="menu-link active" href="./Panda.html">Zoos</a></li>
+                    <li class="menu-list--item"><a class="menu-link " href="../Map.html">Map</a></li>
+                    <li class="menu-list--item"><a class="menu-link" href="#contacts">Contact Us</a></li>
+                    <li class="menu-list--item">
+                        <a class="menu-link" href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a class="switcher--item" ></a>
+        </header>
+    </div>
+</header>
+
+<main class="zoos ">
+        <div class=" zoos--slider__wrapper flex">
+            <a class="zoos--arrow-top btn-arrow">
+                <img src="../../assets/images/PageZoos/arrow-top.svg" alt="top">
+            </a>
+            <div class="zoos--slider flex">
+                <a class="zoos--slide" href="./Panda.html">
+                    <img title="panda" src="../../assets/images/PageMap/panda.png" alt="slide">
+                </a>
+                <a class="zoos--slide" href="./eagle.html">
+                    <img title="eagle" src="../../assets/images/PageMap/eagle.png" alt="slide">
+                </a>
+                <a class="zoos--slide map--slide__active">
+                    <img title="crocodile" src="../../assets/images/PageMap/crocodile.png" alt="slide">
+                </a>
+                <a class="zoos--slide" href="./monkey.html">
+                    <img title="monkey" src="../../assets/images/PageMap/monkey.png" alt="slide">
+                </a>
+            </div>
+            <a class="zoos--arrow-bot btn-arrow">
+                <img src="../../assets/images/PageZoos/arrow-bot.svg" alt="bot">
+            </a>
+    </div>
+    <div class="zoos-content">
+        <h2 class="zoos-title">Alligator and Spoonbill Swamp Webcam</h2>
+        <div class="zoos-container ">
+            <div class="video-container">
+                <iframe class="video" width="790" height="442" src="https://www.youtube-nocookie.com/embed/X5Im4mMFK4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="zoos-slider flex">
+                    <div class="block"></div>
+                    <iframe class="video" width="246" height="141" src="https://www.youtube-nocookie.com/embed/X5Im4mMFK4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="video" width="246" height="141" src="https://www.youtube-nocookie.com/embed/X5Im4mMFK4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="video" width="246" height="141" src="https://www.youtube-nocookie.com/embed/X5Im4mMFK4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="slider--points flex">
+                    <div class="slider--point"></div>
+                    <div class="slider--point"></div>
+                    <div class="slider--point"></div>
+                </div>
+            </div>
+            <div class="zoos--video-information">
+                <h3 class="zoos--video-information__title">Population:</h3>
+                <p class="zoos--video-information__text">Roughly 1.25 million </p>
+                <h3 class="zoos--video-information__title">Habitat:</h3>
+                <p class="zoos--video-information__text">Alligators can be found in slow-moving rivers, ponds, lakes and swamps. </p>
+                <h3 class="zoos--video-information__title">Diet:</h3>
+                <p class="zoos--video-information__text">
+                    Their diets include prey species that are abundant
+                    and easily accessible. Juvenile alligators eat primarily
+                    insects, amphibians, small fish, and other invertebrates.
+                    Adult alligators eat rough fish, snakes, turtles, small mammals, and birds.
+                </p>
+                <a href="#" class="btn--wrapper zoos-btn">Feed</a>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<footer class="footer">
+    <div class="container-max flex">
+        <div class="footer-left">
+            <a class="logo" href="./index.html">
+                <span class="logo-items zoo">zoo</span>
+                <span class="logo-items online">online</span>
+            </a>
+            <p class="contact">Contact us<a name="contacts"></a></p>
+            <form action="#" method="post">
+                <input class="input--name" name="username" type="text" value="Name">
+                <input class="input--name" name="email" type="email" value="Email">
+                <div class="footer-textarea--wrapper">
+                    <span class="footer-textarea-text">Please enter your message</span>
+                    <div class="footer-textarea--border-wrapper"><textarea class="footer-textarea"></textarea></div>
+                </div>
+
+                <div class="checkbox__wrap">
+                    <input type="checkbox" id="form-checkbox" required>
+                    <label for="form-checkbox" class="checkbox-title">I agree to the processing of Personal Data</label>
+                </div>
+
+                <div class="form-button-wrapper">
+                    <button class="form-send" type="submit">SEND</button>
+                </div>
+
+            </form>
+        </div>
+
+
+        <div class="footer-right">
+            <div class="flex">
+                <nav class="footer-right--menu">
+                    <ul class="footer-menu-list flex">
+                        <li class="menu-list--item"><a class="footer--menu-link" href="./index.html">About</a></li>
+                        <li class="menu-list--item"><a class="footer--menu-link" href="../pages/LIVE_BROADCAST.html">Zoos</a></li>
+                        <li class="menu-list--item"><a class="footer--menu-link" href="./pages/Map.html">Map</a></li>
+                        <li class="menu-list--item">
+                            <a class="footer--menu-link"
+                               href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="btn--wrapper footer--btn">
+                    <a href="#" class="btn__text">donate for volunteers</a>
+                </div>
+            </div>
+            <h4 class="footer-information--title">ZOO Online Centre</h4>
+            <h4 class="footer-information--text">132, Address District, Street</h4>
+            <h4 class="footer-information--text">Open Daily 10:00 am - 5:00 pm</h4>
+            <a class="footer-information--text" href="tel:+7021633433">T(702) 163-3433</a>
+            <a class="footer-information--text" href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a>
+
+            <div class="footer-right--social-media flex">
+                <a class="social-media--item instagram" href="https://www.instagram.com/"></a>
+                <a class="social-media--item twitter" href="https://twitter.com/"></a>
+                <a class="social-media--item vk" href="https://vk.com/"></a>
+                <a class="social-media--item youtube" href="https://youtube.com/"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="subfooter container-max">
+        <div class="subfooter-text">©Noora Sagnayeva</div>
+        <div class="subfooter-text">©RSSchool and ©Yem Digital - 2021</div>
+    </div>
+
+</footer>
+
+</body>
+</html>
