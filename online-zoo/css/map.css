@@ -11,17 +11,18 @@
 }
 .text{
     width: 790px;
-    margin: 0 auto 65px;
+    margin: 0 auto 72px;
     font-size: 14px;
     line-height: 16px;
     color: #4F4F4F;
 }
 
 .map--slider__wrapper{
-    margin: 0 auto 42px;
+    margin: 0 auto 55px;
     max-width: 1200px;
 }
 .map--slider{
+    margin-left: 26px;
     max-width: 1074px;
     width: 100%;
 }
