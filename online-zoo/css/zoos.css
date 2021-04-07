@@ -15,6 +15,7 @@
     margin-left: 35px;
     position: sticky;
     height: 600px;
+    width: 135px;
     top: 0;
     flex-direction: column;
     max-width: 1200px;
@@ -78,8 +79,12 @@
     display: flex;
     max-width: 1200px;
 }
+.video-container{
+    width: 820px;
+}
 .video{
-    margin-right: 30px;
+    border-radius: 5px;
+    margin-right: 27px;
     margin-bottom: 30px;
 }
 .zoos--video-information{
@@ -108,7 +113,6 @@
 
 .zoos-slider{
     width: 790px;
-    margin-bottom: 30px;
     position: relative;
 }
 .block{
