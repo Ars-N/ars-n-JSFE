@@ -92,3 +92,11 @@
     transform: scale(1.2);
     margin-bottom: 10px;
 }
+
+
+@media (max-width: 1920px) {
+    .map__svg{
+        width: calc(900px + (1200 - 900) * ((100vw - 1200px) / (1920 - 1200)));
+        height: calc(436px + (498 - 436) * ((100vw - 1200px) / (1920 - 1200)));
+    }
+}
