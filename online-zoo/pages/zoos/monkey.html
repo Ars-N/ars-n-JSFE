@@ -14,24 +14,32 @@
         <header class="header-inner flex">
             <h1>
                 <a class="logo" href="../../index.html">
-                    <span class="logo-items zoo">zoo</span>
+                <span class="logo-items zoo">zoo</span>
                     <span class="logo-items online">online</span>
                 </a>
             </h1>
 
-            <nav class="menu">
-                <ul class="menu-list flex">
-                    <li class="menu-list--item"><a class="menu-link" href="../../index.html">About</a></li>
-                    <li class="menu-list--item"><a class="menu-link active" href="./Panda.html">Zoos</a></li>
-                    <li class="menu-list--item"><a class="menu-link " href="../Map.html">Map</a></li>
-                    <li class="menu-list--item"><a class="menu-link" href="#contacts">Contact Us</a></li>
-                    <li class="menu-list--item">
-                        <a class="menu-link" href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="header-menu">
+                <nav class="menu">
+                    <ul class="menu-list flex">
+                        <li class="menu-list--item"><a class="menu-link" href="../../index.html">About</a></li>
+                        <li class="menu-list--item"><a class="menu-link active" href="">Zoos</a></li>
+                        <li class="menu-list--item"><a class="menu-link " href="../Map.html">Map</a></li>
+                        <li class="menu-list--item"><a class="menu-link" href="#contacts">Contact Us</a></li>
+                        <li class="menu-list--item">
+                            <a class="menu-link"
+                               href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
 
-            <a class="switcher--item" ></a>
+            <div class="container_btn flex">
+                <a class="switcher--item"></a>
+                <div class="menu_icon">
+                    <span></span>
+                </div>
+            </div>
         </header>
     </div>
 </header>
@@ -42,7 +50,7 @@
                 <img src="../../assets/images/PageZoos/arrow-top.svg" alt="top">
             </a>
             <div class="zoos--slider flex">
-                <a title="panda" class="zoos--slide" href="#">
+                <a title="panda" class="zoos--slide" href="Panda.html">
                     <img title="panda" src="../../assets/images/PageMap/panda.png" alt="slide">
                 </a>
                 <a title="eagle" class="zoos--slide" href="eagle.html">
@@ -102,41 +110,19 @@
 
 
 <footer class="footer">
-    <div class="container-max flex">
-        <div class="footer-left">
+    <div class="container-max">
+        <div class="footer--top flex">
             <a class="logo" href="./index.html">
                 <span class="logo-items zoo">zoo</span>
                 <span class="logo-items online">online</span>
             </a>
-            <p class="contact">Contact us<a name="contacts"></a></p>
-            <form action="#" method="post">
-                <input class="input--name" name="username" type="text" value="Name">
-                <input class="input--name" name="email" type="email" value="Email">
-                <div class="footer-textarea--wrapper">
-                    <span class="footer-textarea-text">Please enter your message</span>
-                    <div class="footer-textarea--border-wrapper"><textarea class="footer-textarea"></textarea></div>
-                </div>
-
-                <div class="checkbox__wrap">
-                    <input type="checkbox" id="form-checkbox" required>
-                    <label for="form-checkbox" class="checkbox-title">I agree to the processing of Personal Data</label>
-                </div>
-
-                <div class="form-button-wrapper">
-                    <button class="form-send" type="submit">SEND</button>
-                </div>
-
-            </form>
-        </div>
-
-
-        <div class="footer-right">
-            <div class="flex">
-                <nav class="footer-right--menu">
+            <div class="footer--menu-btn__wrapper flex">
+                <nav class="footer--menu">
                     <ul class="footer-menu-list flex">
-                        <li class="menu-list--item"><a class="footer--menu-link" href="../../index.html">About</a></li>
-                        <li class="menu-list--item"><a class="footer--menu-link" href="./Panda.html">Zoos</a></li>
-                        <li class="menu-list--item"><a class="footer--menu-link" href="../Map.html">Map</a></li>
+                        <li class="menu-list--item"><a class="footer--menu-link" href="./index.html">About</a></li>
+                        <li class="menu-list--item"><a class="footer--menu-link" href="pages/zoos/Panda.html">Zoos</a>
+                        </li>
+                        <li class="menu-list--item"><a class="footer--menu-link" href="./pages/Map.html">Map</a></li>
                         <li class="menu-list--item">
                             <a class="footer--menu-link"
                                href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a>
@@ -144,21 +130,57 @@
                     </ul>
                 </nav>
 
-                <div class="btn--wrapper footer--btn">
+                <div class="btn--wrapper footer--btn footer--btn__first">
                     <a href="#" class="btn__text">donate for volunteers</a>
                 </div>
             </div>
-            <h4 class="footer-information--title">ZOO Online Centre</h4>
-            <h4 class="footer-information--text">132, Address District, Street</h4>
-            <h4 class="footer-information--text">Open Daily 10:00 am - 5:00 pm</h4>
-            <a class="footer-information--text" href="tel:+7021633433">T(702) 163-3433</a>
-            <a class="footer-information--text" href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a>
+        </div>
+        <div class="footer-main flex">
+            <div class="footer-left">
 
-            <div class="footer-right--social-media flex">
-                <a class="social-media--item instagram" href="https://www.instagram.com/"></a>
-                <a class="social-media--item twitter" href="https://twitter.com/"></a>
-                <a class="social-media--item vk" href="https://vk.com/"></a>
-                <a class="social-media--item youtube" href="https://youtube.com/"></a>
+                <p class="contact">Contact us<a name="contacts"></a></p>
+                <form action="#" method="post">
+                    <input class="input--name" name="username" type="text" value="Name">
+                    <input class="input--name" name="email" type="email" value="Email">
+                    <div class="footer-textarea--wrapper">
+                        <span class="footer-textarea-text">Please enter your message</span>
+                        <div class="footer-textarea--border-wrapper"><textarea class="footer-textarea"></textarea></div>
+                    </div>
+
+                    <div class="checkbox__wrap">
+                        <input type="checkbox" id="form-checkbox" required>
+                        <label for="form-checkbox" class="checkbox-title">I agree to the processing of Personal
+                            Data</label>
+                    </div>
+
+                    <div class="form-button-wrapper">
+                        <button class="form-send" type="submit">SEND</button>
+                    </div>
+
+                </form>
+            </div>
+
+
+            <div class="footer-right">
+
+                <h4 class="footer-information--title">ZOO Online Centre</h4>
+                <h4 class="footer-information--text">132, Address District, Street</h4>
+                <h4 class="footer-information--text">Open Daily 10:00 am - 5:00 pm</h4>
+                <div class="footer-information--text"><a class="footer-information--link" href="tel:+7021633433">T(702)
+                    163-3433</a></div>
+                <div class="footer-information--text"><a class="footer-information--link"
+                                                         href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a>
+                </div>
+
+                <div class="footer-right--social-media flex">
+                    <a class="social-media--item instagram" href="https://www.instagram.com/"></a>
+                    <a class="social-media--item twitter" href="https://twitter.com/"></a>
+                    <a class="social-media--item vk" href="https://vk.com/"></a>
+                    <a class="social-media--item youtube" href="https://youtube.com/"></a>
+                </div>
+                <div class="btn--wrapper footer--btn footer--btn__second">
+                    <a href="#" class="btn__text">donate for volunteers</a>
+                </div>
             </div>
         </div>
     </div>
