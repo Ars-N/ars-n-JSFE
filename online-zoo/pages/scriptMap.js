@@ -7,4 +7,3 @@ if (iconMenu) {
         iconMenu.classList.toggle('icon_active')
     } )
 }
-alert(" страница в разработке, надеюсь Вы перепроверите ")
