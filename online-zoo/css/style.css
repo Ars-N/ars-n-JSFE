@@ -105,6 +105,19 @@ body.lock{
 }
 
 
+.information-container{
+    max-width:790px;
+}
+
+.container{
+    max-width: 1200px;
+}
+.slider-wrapper {
+    max-width:1300px;
+}
+.testimonials--slider__wrapper {
+    width:1300px;
+}
 .container-max{
     margin: 0 auto;
     max-width: 1620px;
@@ -112,6 +125,8 @@ body.lock{
 .container{
     margin: 0 auto;
 }
+
+
 .flex{
     display: flex;
     justify-content: space-between;
@@ -229,6 +244,7 @@ h1{
     height: 30px;
     background: url("../assets/images/svg/light.svg") -6px -6px no-repeat;
 }
+
 
 
 
@@ -1095,6 +1111,70 @@ input:checked + label:before {
     display: none;
 }
 
+
+
+
+
+
+.point-eagle{
+    top: 73px;
+    left: 121px;
+}
+.point-crocodile{
+    top: 93px;
+    left: 244px;
+}
+.point-monkey{
+    top: 189px;
+    left: 570px;
+}
+.point-panda{
+    top: 94px;
+    left: 895px;
+}
+.map__svg {
+    width: 1200px;
+    height: 498px;
+}
+.footer {
+    padding: 110px 15px 65px;
+}
+
+
+.intro {
+    padding-top: calc(127px + (206 - 127)*((100vw - 1200px)/(1920 - 1200)));
+    height: calc(927px + (941 - 927)*((100vw - 1200px)/(1920 - 1200)));
+}
+
+.information-article {
+    padding-bottom: calc(15px + (30 - 15)*((100vw - 1200px)/(1920 - 1200)));
+}
+.pets-in-zoo--title {
+    margin-bottom: calc(32px + (35 - 32)*((100vw - 1200px)/(1920 - 1200)));
+}
+
+.pay-and-feed--subtitle {
+    margin-bottom: calc(48px + (90 - 48) * ((100vw - 1200px) / (1920 - 1200)));
+}
+.pay-and-feed__btn {
+    margin-top: calc(50px + (61 - 50) * ((100vw - 1200px) / (1920 - 1200)));
+}
+.testimonials--slider__wrapper {
+    width: calc(1000px + (1300 - 1000) * ((100vw - 1200px) / (1920 - 1200)));
+}
+.btn-arrow {
+    padding-top: calc(10px + (0 - 10) * ((100vw - 1200px) / (1920 - 1200)));
+}
+.testimonials--slider {
+    width: calc(900px + (1230 - 900) * ((100vw - 1200px) / (1920 - 1200)));
+}
+.testimonials--slide:first-child {
+    margin-left: 0;
+}
+.testimonials--slide {
+    margin-left: calc(20px + (30 - 20) * ((100vw - 1200px) / (1920 - 1200)));
+    padding: 48px calc(56px + (72 - 56) * ((100vw - 1200px) / (1920 - 1200))) calc(90px + (106 - 90) * ((100vw - 1200px) / (1920 - 1200)));
+}
 /*///////////////adaptive\\\\\\\\\\\\\\\\*/
 @media screen and (max-width: 1920px){
     .container-max{
