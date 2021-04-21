@@ -1567,6 +1567,9 @@ input:checked + label:before {
     .header{
         position: fixed;
     }
+    .main{
+        padding-top: 92px;
+    }
     .container_btn{
         width: calc(118px + (128 - 118)*((100vw - 320px)/(640 - 320)));
     }
