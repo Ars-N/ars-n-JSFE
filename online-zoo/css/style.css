@@ -1338,7 +1338,7 @@ input:checked + label:before {
     }
     .intro--slider-item__active .intro--hover-content {
         top: 93%;
-        left: -8%;
+        margin-left: 23px;
     }
     .slider--img{
         width: 180px;
@@ -1969,6 +1969,13 @@ input:checked + label:before {
     }
 
 
+
+    .intro--slider-item__active .intro--hover-content {
+        top: 93%;
+        left: -8%;
+        margin-left: 0;
+
+    }
 }
 
 @media (max-width: 520px) {
@@ -1985,7 +1992,7 @@ input:checked + label:before {
         width: 113px;
         height: 164px;
     }
-    
+
     .intro--slider-item{
         margin: 46px -4px 0;
     }
@@ -2002,6 +2009,7 @@ input:checked + label:before {
     .intro--slider-item__active .slider--img {
         transform: scale(1.25);
     }
+
     .slider--pets__links{
         flex-direction: column;
         align-items: flex-start;
@@ -2020,8 +2028,10 @@ input:checked + label:before {
         top: 28%;
         left: -5%;
     }
+
     .intro--btn__wrapper:first-child{
         margin-left: -2px;
+        font-size: 10px;
     }
 
     .intro__btn-range{
