@@ -1564,6 +1564,9 @@ input:checked + label:before {
 
 
 @media (max-width: 767px) {
+    .header{
+        position: fixed;
+    }
     .container_btn{
         width: calc(118px + (128 - 118)*((100vw - 320px)/(640 - 320)));
     }
