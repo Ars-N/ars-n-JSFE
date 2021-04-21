@@ -1985,9 +1985,7 @@ input:checked + label:before {
         width: 113px;
         height: 164px;
     }
-    .information-slider{
-        padding-top: 185px;
-    }
+    
     .intro--slider-item{
         margin: 46px -4px 0;
     }
