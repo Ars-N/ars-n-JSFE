@@ -457,7 +457,7 @@
         margin-left: calc(50% - 20px);
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 620px) {
     .zoos--slider>.zoos--slide__active {
         transform: scale(1.5);
         margin-top: 18px;
