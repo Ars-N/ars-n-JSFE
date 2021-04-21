@@ -208,10 +208,13 @@
         left: calc(71.3% + (81.6 - 71.3) * ((100vw - 640px) / (1200 - 640)));
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 767px) {
     .main--map{
         padding-top: 152px;
     }
+}
+@media (max-width: 700px) {
+
     .text{
         margin-bottom: 35px;
     }
