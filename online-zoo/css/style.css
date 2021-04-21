@@ -1566,6 +1566,7 @@ input:checked + label:before {
 @media (max-width: 767px) {
     .header{
         position: fixed;
+        z-index: 10;
     }
     .main{
         padding-top: 92px;
@@ -1735,6 +1736,12 @@ input:checked + label:before {
 
 
 
+
+
+
+}
+
+@media (max-width: 600px) {
     .map__svg{
         width: calc(300px + (600 - 300) * ((100vw - 320px)/(640 - 320)));
         height: calc(150px + (290 - 150) * ((100vw - 320px)/(640 - 320)));
@@ -1768,9 +1775,6 @@ input:checked + label:before {
     }
 
 
-}
-
-@media (max-width: 600px) {
     .header-inner h1 {
         margin-left: 0;
     }
