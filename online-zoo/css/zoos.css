@@ -307,7 +307,7 @@
         margin-top: 10px;
     }
     .zoos{
-        padding-top: 52px;
+        padding-top: 142px;
         padding-bottom: 100px;
     }
     .zoos--slide img{
@@ -369,7 +369,7 @@
         margin-top: 2px;
     }
     .zoos{
-        padding-top: 44px;
+        padding-top: 136px;
         padding-bottom: 82px;
     }
     .zoos-title{
@@ -432,7 +432,7 @@
         font-size: calc(24px + (48 - 24)*((100vw - 320px)/(640 - 320)));
     }
     .zoos{
-        padding-top: 14px;
+        padding-top: 106px;
     }
     .zoos--slide img {
         width:calc(40px + (70 - 40)*((100vw - 320px)/(640 - 320)));
@@ -485,6 +485,6 @@
         margin-top: 17px;
     }
     .zoos{
-        padding-bottom: 60px;
+        padding-bottom: 132px;
     }
 }

@@ -209,6 +209,9 @@
     }
 }
 @media (max-width: 700px) {
+    .main--map{
+        padding-top: 152px;
+    }
     .text{
         margin-bottom: 35px;
     }
@@ -259,7 +262,7 @@
 
 @media (max-width: 600px) {
     .main--map{
-        padding-top: 35px;
+        padding-top: 127px;
     }
     .map--slider-line{
         width: 640px;
