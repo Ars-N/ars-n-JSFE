@@ -1,3 +1,4 @@
+
 .main--map{
     padding-top: 60px;
 }
@@ -6,7 +7,7 @@
     font-size: 48px;
     line-height: 56px;
     text-align: center;
-    color: #333333;
+    color: var(--textcolor);
     margin-bottom: 21px;
 }
 .text{
@@ -66,6 +67,7 @@
 
 
 .zoos{
+    background-color: var(--bgcolorpages);
     display: flex;
     padding: 60px 0 97px;
     position: relative;
@@ -163,7 +165,7 @@
     font-weight: 900;
     font-size: 48px;
     line-height: 56px;
-    color: #333333;
+    color: var(--textcolor);
     margin-bottom: 40px;
 }
 .zoos-container{
@@ -172,6 +174,7 @@
     margin-right: 10px;
 }
 .video-container{
+    overflow: hidden;
     width: 820px;
 }
 .video,.video-main{
@@ -184,8 +187,24 @@
     height: 442px;
 }
 .video{
+    cursor: none;
     width: 246px;
     height: 141px;
+}
+.video-wrapper{
+    border-radius: 5px;
+    position: relative;
+}
+.video-wrapper::after{
+    content: "";
+    z-index: 3;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 244px;
+    height: 140px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.2);
 }
 
 .zoos--video-information{
@@ -195,13 +214,13 @@
     font-weight: 900;
     font-size: 20px;
     line-height: 23px;
-    color: #333333;
+    color: var(--textcolor);
     margin-bottom: 7px;
 }
 .zoos--video-information__text{
     font-size: 14px;
     line-height: 16px;
-    color: #4F4F4F;
+    color: var(--textcolorsecond);
     margin-bottom: 12px;
 }
 .zoos-btn{
@@ -251,13 +270,13 @@
         width: calc(527px + (790 - 527)*((100vw - 1200px)/(1920 - 1200)));
         height: calc(297px + (442 - 297)*((100vw - 1200px)/(1920 - 1200)));
     }
-    .video{
+    .video,.video-wrapper::after{
         width: calc(164px + (246 - 164)*((100vw - 1200px)/(1920 - 1200)));
         height: calc(94px + (141 - 94)*((100vw - 1200px)/(1920 - 1200)));
         margin-right: calc(18px + (27 - 18)*((100vw - 1200px)/(1920 - 1200)));
     }
     .video-container{
-        width: calc(527px + (790 - 527)*((100vw - 1200px)/(1920 - 1200)));
+        width: calc(530px + (790 - 530)*((100vw - 1200px)/(1920 - 1200)));
         margin-right: 32px;
     }
     .zoos-slider{

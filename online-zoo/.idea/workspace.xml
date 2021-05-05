@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5491d177-50f6-4cf7-8096-5d6268cec064" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/intro-slider/line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro-slider/line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg/light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg/testimonials/map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg/testimonials/map.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/map.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/null.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/null.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styleMap.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/zoos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/zoos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Map.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/scriptMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/scriptMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/zoos/Panda.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/zoos/Panda.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/zoos/crocodile.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/zoos/crocodile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/zoos/eagle.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/zoos/eagle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/zoos/monkey.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/zoos/monkey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/zoos/scriptZoos.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/zoos/scriptZoos.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +65,20 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="Panda.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/online-zoo/pages/zoos/Panda.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/online-zoo/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="JavaScript Debug.Panda.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -53,10 +96,58 @@
       <workItem from="1618426305505" duration="118000" />
       <workItem from="1619003128151" duration="4483000" />
       <workItem from="1619039786138" duration="370000" />
+      <workItem from="1619872485120" duration="109143000" />
+      <workItem from="1620248687197" duration="3442000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="420" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619877743046">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="420" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/-1920.-139.1920.1050@0.0.1366.738" timestamp="1619877743046" />
+    <state x="568" y="245" key="FileChooserDialogImpl" timestamp="1620040024284">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="568" y="245" key="FileChooserDialogImpl/0.0.1366.738/-1920.-139.1920.1050@0.0.1366.738" timestamp="1620040024284" />
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1620245963501">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-139.1920.1050@0.0.1366.738" timestamp="1620245963501" />
+    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1620245963501">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-139.1920.1050@0.0.1366.738" timestamp="1620245963501" />
+    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1620245963494">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-139.1920.1050@0.0.1366.738" timestamp="1620245963494" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1620245963501">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-139.1920.1050@0.0.1366.738" timestamp="1620245963501" />
+    <state x="415" y="0" width="705" height="738" key="find.popup" timestamp="1620040287360">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="415" y="0" width="705" height="738" key="find.popup/0.0.1366.738/-1920.-139.1920.1050@0.0.1366.738" timestamp="1620040287360" />
+    <state x="559" y="298" key="scopes" timestamp="1620040059261">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="559" y="298" key="scopes/0.0.1366.738/-1920.-139.1920.1050@0.0.1366.738" timestamp="1620040059261" />
   </component>
 </project>

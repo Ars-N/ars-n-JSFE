@@ -1,4 +1,5 @@
 .main--map{
+    background-color: var(--bgcolorpages);
     padding-top: 60px;
 }
 .title{
@@ -6,7 +7,7 @@
     font-size: 48px;
     line-height: 56px;
     text-align: center;
-    color: #333333;
+    color: var(--textcolor);
     margin-bottom: 21px;
 }
 .text{
@@ -14,7 +15,7 @@
     margin: 0 auto 55px;
     font-size: 14px;
     line-height: 16px;
-    color: #4F4F4F;
+    color: var(--textcolorsecond);
 }
 
 .map--slider__wrapper{
@@ -23,11 +24,13 @@
 }
 .map--slider{
     height: 157px;
-    max-width: 1073px;
+    width: 1123px;
+    padding-left: 25px;
+
     overflow: hidden;
 }
 .map--slider-line{
-    width: 1074px;
+    width: 1073px;
     height: 100%;
 }
 .map--slide__active{
@@ -42,7 +45,7 @@
 }
 
 .map-wrapper{
-    background-color: white;
+    background-color: var(--bgcolorpages);
 }
 
 .map-position{
@@ -53,7 +56,7 @@
     left: 132px;
     top: 80px;
 }
-.point:hover{
+.point._active{
     background: url("../assets/images/svg/map/PointRed.svg");
 }
 .point-panda{
@@ -104,9 +107,6 @@
     transition: transform 0.6s;
 }
 
-.map--slide:hover{
-    transform: scale(1.2);
-}
 .map--slide:hover::after,.map--slide:hover::before{
     visibility: visible;
 }
@@ -166,7 +166,7 @@
         max-width: 800px;
     }
     .map--slider{
-        width: 659px;
+        width: 710px;
     }
     .map__btn__range {
         padding-right: 0;
