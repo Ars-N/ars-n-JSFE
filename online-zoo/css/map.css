@@ -88,7 +88,7 @@
     left: -3%;
     right: -3%;
     bottom: -3%;
-    background-color: #fff;
+    background-color: var(--bgcolorpages);
     height: 106%;
     width: 106%;
     z-index: -1;

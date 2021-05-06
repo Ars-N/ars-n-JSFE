@@ -46,6 +46,8 @@ window.onresize=()=> {
     initMap()
 }
 
+
+
 itemsMap[1].classList.add('map--slide__active')
 function initMap() {
     widthMap = sliderLine.offsetWidth/8 + 3;
@@ -115,6 +117,32 @@ rangeMap.addEventListener('input', ()=>{
     rollSliderMap()
     activatePoint()
 })
+
+/*//click\\*/
+itemsMap.forEach((a,i)=>{
+
+    a.addEventListener('click', (e)=>{
+        activeEl=i
+        rangeMap.value=i+1
+
+        rangeMap.previousElementSibling.firstChild.innerHTML=(rangeMap.value>9?'':'0')+rangeMap.value+'/'
+        
+        if (activeEl>mapMax){
+            countMap=activeEl-range
+            mapMin=activeEl-range
+            mapMax=activeEl
+        } else if (activeEl<mapMin) {
+            countMap=activeEl
+            mapMin=activeEl
+            mapMax=activeEl+range
+        }
+        itemsMap.forEach(a=>a.classList.remove('map--slide__active'))
+        itemsMap[activeEl].classList.add('map--slide__active')
+        rollSliderMap()
+        activatePoint()
+    })
+})
+
 
 function rollSliderMap() {
     sliderLine.style.transform='translate(-' + countMap * widthMap+'px)'

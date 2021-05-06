@@ -1204,6 +1204,7 @@ input:checked + label:before {
 }
 
 .map__active{
+    stroke: var(--mapcolor);
     fill: var(--mapcoloractive);
 }
 
