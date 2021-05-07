@@ -126,7 +126,7 @@ itemsMap.forEach((a,i)=>{
         rangeMap.value=i+1
 
         rangeMap.previousElementSibling.firstChild.innerHTML=(rangeMap.value>9?'':'0')+rangeMap.value+'/'
-        
+
         if (activeEl>mapMax){
             countMap=activeEl-range
             mapMin=activeEl-range

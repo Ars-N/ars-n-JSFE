@@ -755,6 +755,7 @@ h1{
     font-size: 20px;
     line-height: 23px;
     text-align: center;
+    color: var(--textcolor);
 }
 .arrow-decoration{
     width: 110px;
