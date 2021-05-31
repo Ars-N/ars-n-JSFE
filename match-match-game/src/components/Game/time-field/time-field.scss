@@ -1,0 +1,22 @@
+.time-field{
+  width: 256px;
+  height: 64px;
+  margin: 0 0 60px;
+
+  /* White / High Emphasis */
+  background: #FFFFFF;
+
+  /* horizontal sheet */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24);
+
+  font-size: 36px;
+  line-height: 83%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.15px;
+
+  color: rgba(0, 0, 0, 0.4);
+}
+

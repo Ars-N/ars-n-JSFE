@@ -1,0 +1,22 @@
+.header_btn {
+  display: flex;
+  align-items: center;
+  & > img {
+    margin: 0 10px;
+  }
+  & .mdc-button--raised:not(:disabled) {
+    display: flex;
+    width: 207px;
+    color: #2196F3;
+    background-color: #ffffff;
+
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+  }
+}
+
+.reLog_btn .mdc-button--raised:not(:disabled) {
+  width: 70px;
+}

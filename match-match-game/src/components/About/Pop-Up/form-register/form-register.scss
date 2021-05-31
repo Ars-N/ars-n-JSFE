@@ -1,0 +1,51 @@
+.pop-up_form{
+  height: 70%;
+}
+#avatarInput{
+  width: 0;
+  height: 0;
+}
+#imgInputFile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  &:hover #plusHover{
+    display: block;
+  }
+}
+#plusHover{
+  position: absolute;
+  display: none;
+
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  background-color: rgba( 95, 95, 95, 0.5);
+}
+.pop-up_body{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.submit .mdc-button--raised:not(:disabled) {
+  width: 108px;
+  color: #fff;
+  background-color: #2196F3;
+}
+.cancel .mdc-button--raised:not(:disabled) {
+  width: 93px;
+  color: #2196F3;
+  background-color: #E3F2FD;
+}
+.submit .mdc-button--raised:not(:disabled),.cancel .mdc-button--raised:not(:disabled) {
+  height: 36px;
+
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
+

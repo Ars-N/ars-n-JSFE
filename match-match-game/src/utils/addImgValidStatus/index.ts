@@ -1,0 +1,1 @@
+export { addImgValidStatus } from './addImgValidStatus';

@@ -1,0 +1,42 @@
+.user-field{
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 850px;
+  margin: 10px;
+}
+.user-name{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+.user-field_img-wrapper{
+  margin-right: 16px;
+  display: inline-block;
+  & > img{
+    width: 40px;
+    height: 40px;
+  }
+}
+.user-container{
+  display: flex;
+}
+.user-text_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user_text-score{
+  width: 75px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  & > span{
+    color: #2196F3;
+  }
+}
