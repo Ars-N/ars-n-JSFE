@@ -1,1 +1,0 @@
-export { IndexedDb } from './indexedDb';
