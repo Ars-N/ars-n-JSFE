@@ -1,0 +1,17 @@
+.settings-page{
+  min-height: 252px;
+  width: 1000px;
+  padding: 28px 36px 50px;
+
+  background: #FFFFFF;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.24), 0 9px 18px rgba(0, 0, 0, 0.18);
+}
+.setting__select, .option{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.7);
+}

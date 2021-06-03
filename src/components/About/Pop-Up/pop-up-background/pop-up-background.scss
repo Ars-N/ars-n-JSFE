@@ -1,0 +1,11 @@
+.pop-up_background{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.25);
+}
