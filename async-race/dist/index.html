@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="86f8c35955b0c9b8ee2a.ico" type="image/ico" sizes="32x32">
+  <title>x-app-name</title>
+<script defer src="main.js"></script></head>
+
+<body>
+  <div id="root"></div>
+
+  <!-- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API -->
+
+ <!-- <script type="module">
+    const winners = 'http://127.0.0.1:3000/winners';
+    // const garage = 'http://127.0.0.1:3000/garage';
+    const engine = 'http://127.0.0.1:3000/engine';
+    class Loader {
+      constructor() {
+          this.URL = 'http://localhost:3000';
+      }
+
+      createQuery(parameters) {
+        const keys = Object.keys(parameters);
+        const { length } = keys;
+
+        if (!length) {
+          return '';
+        }
+
+        let requestQuery = '?';
+        let value;
+
+        keys.forEach((key, i) => {
+          value = parameters[key];
+          requestQuery += `${key}=${value}`;
+
+          if (i !== length - 1) {
+            requestQuery += '&';
+          }
+        });
+
+        return requestQuery;
+      }
+
+      async request(url, options) {
+        let requestQuery = url;
+
+        if (options.parameters) {
+          requestQuery += this.createQuery(options);
+        }
+
+        const response = await fetch(requestQuery, options);
+        const result = await response.json();
+
+        return result;
+      }
+
+      async createCar(settings) {
+        const URL = garage;
+        const options = {
+          body: JSON.stringify(settings),
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          method: 'POST',
+        };
+
+        return this.request(URL, options);
+      }
+
+      async getCar(ID) {
+        const URL = `${garage}/${ID}`;
+
+        return this.request(URL);
+      }
+
+      async getCars(parameters) {
+        const URL = garage;
+
+        return this.request(URL, { parameters });
+      }
+
+      async updateCar(ID, settings) {
+        const URL = `${garage}/${ID}`;
+        const options = {
+          body: JSON.stringify(settings),
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          method: 'PUT',
+        };
+
+        return this.request(URL, options);
+      }
+
+      async deleteCar(ID) {
+        const URL = `${garage}/${ID}`;
+        const options = {
+          method: 'DELETE',
+        };
+
+        return this.request(URL, options);
+      }
+    }
+
+    const loader = new Loader();
+
+    // console.log(await loader.getCars());
+    console.log(await loader.getCars({ parameters: { _limit: 3, _page: 3, } }));
+    // console.log(await loader.createCar({ name: 'BMW', color: '#fff' }));
+  </script>-->
+</body>
+
+</html>
