@@ -18,6 +18,7 @@ export class About extends BaseComponent {
   private addContainer = (number:string, text:string, linkToImg:string) => {
     const $container = new ContainerAbout().element;
     this.element.appendChild($container);
+
     $container.appendChild(new FieldInstruction(`${number}`, `${text}`).element);
     $container.appendChild(new ImgInstruction(`${linkToImg}`).element);
   };
