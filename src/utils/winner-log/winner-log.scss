@@ -1,0 +1,42 @@
+.winner-log{
+  position: absolute;
+  left: calc(50vw - 150px);
+  top: calc(50vh - 56px);
+  width: 320px;
+  height: 112px;
+  background-color: #fff;
+}
+.winner-text{
+  margin: 12px auto;
+  word-break: break-word;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6)
+}
+.winner-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 53px;
+  height: 36px;
+  background: #2196F3;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  cursor: pointer;
+}

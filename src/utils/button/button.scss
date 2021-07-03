@@ -1,0 +1,16 @@
+.button{
+  padding: 3px;
+  margin: 3px;
+  background-color: goldenrod;
+
+  &:hover{
+    box-shadow: (2px 2px 5px gold),
+            (-2px -2px 5px gold),
+            (-2px 2px 5px gold),
+            (2px -2px 5px gold) ;
+  }
+
+  &:active{
+    background-color: lightgoldenrodyellow;
+  }
+}
