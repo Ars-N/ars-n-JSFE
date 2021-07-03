@@ -4,13 +4,10 @@ import { MainControl } from '../../components/Garage/main-control/main-control';
 import { MainBody } from '../../components/Garage/main-body/main-body';
 import { Listeners } from '../../shared/addListenerForGeneratePage';
 import {
-  createCar,
-  createWinner,
-  driveModeEngine,
-  getWinner,
+  createCar, createWinner,
+  driveModeEngine, getWinner,
   switchEngine,
-  updateCar,
-  updateWinner,
+  updateCar, updateWinner,
 } from '../../libs/api';
 import { stopCarAnimation } from '../../shared/stopCar';
 import { enableChangeCar, enableNodeList } from '../../shared/enableBtn';
@@ -18,6 +15,46 @@ import { randomName } from '../../components/Garage/main-body/race-line/carName'
 import { disableChangeCar, disableNodeList } from '../../shared/disableBtn';
 import { startCar } from '../../shared/startCar';
 import { WinnerLog } from '../../utils/winner-log';
+
+function raceAnimationProcessing(svgCar:HTMLElement,
+  winner:string[], carId:string, startedLine:Element) {
+  const $svgCar = svgCar;
+
+  driveModeEngine(carId).then((status) => {
+    if (status === 'Internal Server Error') {
+      $svgCar.style.animationPlayState = 'paused';
+      $svgCar.firstElementChild.classList.remove('car-trtrtr');
+    }
+  });
+
+  $svgCar.addEventListener('animationend', () => {
+    $svgCar.firstElementChild.classList.remove('car-trtrtr');
+
+    winner.push(carId);
+
+    if (carId === winner[0]) {
+      const $winnerLog = new WinnerLog(
+        startedLine.getAttribute('data-name'),
+        startedLine.getAttribute('data-time'),
+      );
+      if (winner.length === 1) {
+        const time = startedLine.getAttribute('data-time');
+
+        document.querySelector('.garage__body').appendChild($winnerLog.element);
+
+        getWinner(+carId).then((res) => {
+          if (res.ok) {
+            if (res.data.time > time) {
+              updateWinner(carId, res.data.wins + 1, time).then();
+            } else {
+              updateWinner(carId, res.data.wins + 1, res.data.time).then();
+            }
+          } else createWinner(+carId, 1, +startedLine.getAttribute('data-time')).then();
+        });
+      }
+    }
+  });
+}
 
 export class Garage extends BaseComponent {
   private listener;
@@ -158,40 +195,9 @@ export class Garage extends BaseComponent {
                   const carId = startedLine.getAttribute('data-id');
 
                   startCar(+startedLine.getAttribute('data-time'), $svgCar);
-                  driveModeEngine(carId).then((status) => {
-                    if (status === 'Internal Server Error') {
-                      $svgCar.style.animationPlayState = 'paused';
-                      $svgCar.firstElementChild.classList.remove('car-trtrtr');
-                    }
-                  });
 
-                  $svgCar.addEventListener('animationend', () => {
-                    $svgCar.firstElementChild.classList.remove('car-trtrtr');
+                  raceAnimationProcessing($svgCar, winner, carId, startedLine);
 
-                    winner.push(carId);
-
-                    if (carId === winner[0]) {
-                      const $winnerLog = new WinnerLog(
-                        startedLine.getAttribute('data-name'),
-                        startedLine.getAttribute('data-time'),
-                      );
-                      if (winner.length === 1) {
-                        const time = startedLine.getAttribute('data-time');
-
-                        document.querySelector('.garage__body').appendChild($winnerLog.element);
-
-                        getWinner(+carId).then((res) => {
-                          if (res.ok) {
-                            if (res.data.time > time) {
-                              updateWinner(carId, res.data.wins + 1, time);
-                            } else {
-                              updateWinner(carId, res.data.wins + 1, res.data.time);
-                            }
-                          } else createWinner(+carId, 1, +startedLine.getAttribute('data-time'));
-                        });
-                      }
-                    }
-                  });
                   winner = [];
                 });
               }
