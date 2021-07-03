@@ -1,0 +1,34 @@
+.car-control{
+  display: flex;
+  border-bottom: 2px dashed black;
+  padding: 5px;
+}
+.flag{
+  transform: translateX(calc(100vw - 210px));
+}
+.svg-car_wrapper{
+  display: inline-block;
+
+}
+.car_svg{
+  //animation: drive linear 5s forwards, trtrtr linear 100ms infinite;
+}
+@keyframes drive{
+  from { transform: translateX(0px) }
+  to { transform: translateX(calc(100vw - 120px)) }
+}
+.car-trtrtr{
+  animation: trtrtr 80ms alternate linear infinite;
+}
+@keyframes trtrtr {
+  from { transform: translateY(0px) }
+  to { transform: translateY(-2px) }
+}
+#start{
+  color: red;
+}
+
+#stop{
+  color: limegreen;
+  margin: 0 5px;
+}
