@@ -1,0 +1,46 @@
+.winners__table-element.time,.winners__table-element.wins{
+  cursor: pointer;
+}
+.winners__table{
+  margin-top: 10px;
+  display: inline-block;
+}
+.winners__table-header{
+  padding: 2px 3px;
+  background-color: #00f;
+  display: flex;
+}
+.winners__table_content{
+  padding: 2px 3px;
+  display: flex;
+}
+.winners__table-element{
+  text-align: center;
+  display: block;
+  margin: 0 2px;
+  font-size: 14px;
+  &.winners__table-header_element{
+    color: #fff;
+  }
+  &:nth-child(1){
+    width: 46px;
+  }
+  &:nth-child(2){
+    width: 22px;
+  }
+  &:nth-child(3){
+    word-wrap: break-word;
+    width: 110px;
+  }
+  &:nth-child(4){
+    width: 29px;
+  }
+}
+//.time.arrow-top{
+//  display: inline;
+//}
+
+.arrow-top,.arrow-bottom{
+  display: none;
+  font-size: 12px;
+}
